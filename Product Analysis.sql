@@ -1,4 +1,4 @@
-** Daily Average Purchase Duration (min) vs # of Purchases **
+** Daily Average Purchase Duration (min) vs No. Purchases **
 WITH
 -- Subquery to find the first time each user visited the site
   first_event AS (
@@ -113,7 +113,7 @@ ORDER BY
     event_date;
 
 
-** Average Purchase Duration, Revenue & # of Purchases per Category **
+** Average Purchase Duration, Revenue & No. Purchases per Category **
 WITH
 -- Subquery to find the first time each user visited the site
   first_event AS (
@@ -267,7 +267,7 @@ ORDER BY
     event_date;
 
 
-** Average Purchase Duration, Revenue & # of Purchases per Country **
+** Average Purchase Duration, Revenue & No. Purchases per Country **
 WITH 
 -- Subquery to find the first time each user visited the site
   first_event AS (
